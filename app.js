@@ -105,12 +105,12 @@ $(document).ready(function () {
 
         else if (operator === "Tan") {
 
-            if (secondNumber = 90) {
-                $('#result').text("Not Defined").css("font-size", "80px");
+            if (secondNumber != 90) {
+                $('#result').text(Math.tan(secondNumber * Math.PI / 180).toFixed(2));
             }
 
             else {
-                $('#result').text(Math.tan(secondNumber * Math.PI / 180).toFixed(2));
+                $('#result').text("Not Defined").css("font-size", "80px");
             }
 
         }
