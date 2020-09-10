@@ -1,0 +1,54 @@
+:root{
+    --main-color:rgb(59, 138, 184);
+}
+
+body {
+    background: linear-gradient(to right, #bbd2c5, #536976);
+
+}
+
+.navbar{
+    font-family: 'Monoton', cursive;
+}
+
+.card{
+    background: black;
+}
+
+.card-body {
+    box-shadow: -5px -5px 15px rgba(65, 63, 63, 0.753);
+}
+
+.button {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    padding: 10px;
+    margin: 4px;
+    border: none;
+    background-color: #ecf0f1;
+    color: rgb(59, 59, 59);
+    font-weight: 600;
+    height: 100px;
+    opacity: .9;
+    
+}
+
+.button:hover {
+    opacity: 1;
+    
+}
+
+.button:active{
+    box-shadow: inset 5px 5px 15px 3px rgba(53, 50, 50, 0.733) ;
+}
+
+.operator , #equals {
+    color: #ecf0f1;
+    background-color: var(--main-color);
+    
+}
+
+.operator-font{
+    font-size: 20px;
+}
